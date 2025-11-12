@@ -1,0 +1,55 @@
+header
+{background-color: #B9EFF8;
+overflow: hidden;}
+
+h1{color: #2F76DC;
+float: left;
+text-align: center;
+padding: 0 20px;
+width: 100%; }
+
+#hambuger_check {
+    display: none;
+}
+
+#hambuger_image {
+    background-color: #2F76DC;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 10%;
+}
+
+#hambuger_check:not(:checked) + nav {display: none;}
+
+nav a {color: #2F76DC;
+float: left;
+font-size: 18px;
+padding: 30px 20px;
+text-align: center;
+text-decoration: none;
+width: 100%;}
+
+nav a:hover {background-color: #2F76DC;
+color: #B9EFF8;}
+
+nav a:focus {background-color: #2F76DC;
+color: #B9EFF8;
+outline: none;}
+
+.active_nav {background-color:#2E333F;
+color: #B9EFF8;}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {#hambuger_image {display: none;}
+
+#hambuger_check:not(:checked) +nav {display: block;}
+
+h1 {text-align: left;
+width: 800px;}
+
+nav {float: right;}
+
+nav a {width: auto;} }
