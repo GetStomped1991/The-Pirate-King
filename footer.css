@@ -1,8 +1,8 @@
 footer{
     background-color:#2E333F ;
     color: #2F76DC;
-    padding: 8px 0 6px 0;
-    text-align: center;
+    padding: 8px 0 4px 0;
+    text-align:center;
     width: 100%;
 }
 
@@ -11,11 +11,11 @@ footer a {
     display: inline-block;
     padding: 8px;
     text-decoration: none;
+    text-align: center;
 }
 
 footer img {
-    height:20px;
+    height:22px;
     margin-left: 3px;
-    vertical-align: text-bottom;
-    align-items: center;
+    vertical-align: middle;
 }
