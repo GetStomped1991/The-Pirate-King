@@ -11,11 +11,10 @@ footer a {
     display: inline-block;
     padding: 8px;
     text-decoration: none;
-    text-align: center;
 }
 
 footer img {
-    height:22px;
+    height: 22px;
     margin-left: 3px;
-    vertical-align: middle;
+    vertical-align:text-bottom;
 }
