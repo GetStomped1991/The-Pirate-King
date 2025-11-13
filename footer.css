@@ -1,13 +1,13 @@
 footer{
     background-color:#2E333F ;
-    color: #2F76DC;
+    color: #1C4E99; /* darker blue */
     padding: 8px 0 4px 0;
     text-align:center;
     width: 100%;
 }
 
 footer a {
-    color:#2F76DC;
+    color: #1C4E99; /* darker blue */
     display: inline-block;
     padding: 8px;
     text-decoration: none;

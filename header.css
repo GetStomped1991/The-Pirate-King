@@ -2,7 +2,8 @@ header
 {background-color: #B9EFF8;
 overflow: hidden;}
 
-h1{color: #2F76DC;
+h1{
+color: #1C4E99; /* darker blue */
 float: left;
 text-align: center;
 padding: 0 20px;
@@ -24,7 +25,8 @@ width: 100%; }
 
 #hambuger_check:not(:checked) + nav {display: none;}
 
-nav a {color: #2F76DC;
+nav a {color: #1C4E99; /* darker blue */
+
 float: left;
 font-size: 18px;
 padding: 30px 20px;
@@ -32,10 +34,12 @@ text-align: center;
 text-decoration: none;
 width: 100%;}
 
-nav a:hover {background-color: #2F76DC;
+nav a:hover {background-color: #1C4E99; /* darker blue */
+
 color: #B9EFF8;}
 
-nav a:focus {background-color: #2F76DC;
+nav a:focus {background-color: #1C4E99; /* darker blue */
+
 color: #B9EFF8;
 outline: none;}
 

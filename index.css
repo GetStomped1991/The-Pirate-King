@@ -2,13 +2,13 @@
 h2 {
     display: none;
 }
-h3 {
-    color: #2F76DC;
+h3 {color: #1C4E99; /* darker blue */
     font-size:140% ;
+    text-align: center;
 }
 
 aside {
-    background-color:#DFC18A;
+    background-color:#B9EFF8;
     font-size: 160%;
     padding: 5px 0;
     text-align: center;
@@ -16,7 +16,7 @@ aside {
 }
 
 aside a {
-    color:#2F76DC;
+    color: #1C4E99; /* darker blue */
     display: block;
     padding: 5px 0;
     text-decoration: none;
@@ -25,13 +25,14 @@ aside a {
 }
 
 aside a:hover {
-background-color: #B9EFF8;
-color: #DFC18A;
+background-color: #1C4E99;/* darker blue */
+color:#B9EFF8;  
 }
 
 aside a:focus {
-background-color:#B9EFF8;
-color: #DFC18A;
+background-color:#1C4E99;/* darker blue */
+color:#B9EFF8;  
+
 outline: none;
 }
 
@@ -41,22 +42,23 @@ outline: none;
 
 }
 article {
-    background-color: #B9EFF8;
-    color: #2F76DC;
+   background-color: #B9EFF8;
+   color: #1C4E99; /* darker blue */
     font-size: 120%;
     padding: 0 10px;}
 
     article a {
-        color: #2F76DC;
+   color: #1C4E99; /* darker blue */
         padding: 5px;
         text-decoration: none;}
 
         article a:hover {
-        background-color: #2F76DC;
-            color: #B9EFF8;}
+        background-color: #1C4E99; /* darker blue */
+        color: #B9EFF8;}
 
        article a:focus {
-        background-color: #2F76DC;
+        background-color: #1C4E99; /* darker blue */
+
             color: #B9EFF8;
         text-decoration: none;}
 
@@ -82,7 +84,7 @@ article {
     }
 
         section {
-            background-color: #2F76DC;
+            background-color: #1C4E99; /* darker blue */
             display: inline;
             float: right;
             width: 65%;
